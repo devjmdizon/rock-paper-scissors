@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <main class="game-container">
+      <header class="header-container">
+        <img
+          id="rps-header"
+          class="rps-header"
+          src="images/rps-header.png"
+          alt=""
+        />
+      </header>
+
+      <section id="start-game" class="start-game">
+        <img id="rps-logo" class="rps-logo" src="images/rps-logo.png" alt="" />
+        <button id="start-btn" class="btn start-btn">START GAME</button>
+      </section>
+
+      <section id="score-container" class="score-container">
+        <div id="player-score-container" class="player-score-container">
+          <h2 id="player-name" class="player-name">Player Name Here</h2>
+          <p id="player-score-label" class="player-score-label">#</p>
+        </div>
+        <div id="tie-score-container" class="tie-score-container">
+          <h2 class="tie-name">Tie</h2>
+          <p id="tie-score-label" class="tie-score-label">#</p>
+        </div>
+        <div id="computer-score-container" class="computer-score-container">
+          <h2 class="computer-name">Computer</h2>
+          <p id="computer-score-label" class="computer-score-label">#</p>
+        </div>
+      </section>
+
+      <section id="move-container" class="move-container">
+        <div id="player-turn-container" class="player-turn-container">
+          <img id="player-move-img" src="images/rock.png" alt="" />
+        </div>
+        <div id="computer-turn-container" class="computer-turn-container">
+          <img id="computer-move-img" src="images/rock.png" alt="" />
+        </div>
+      </section>
+
+      <section id="weapons-container" class="weapons-container">
+        <button id="rock-btn" class="btn rock-btn">ROCK</button>
+        <button id="paper-btn" class="btn paper-btn">PAPER</button>
+        <button id="scissors-btn" class="btn scissors-btn">SCISSORS</button>
+      </section>
+
+      <footer class="footer-container">
+        <p class="footer">Rock, Paper & Scissors &copy; 2023 by devjmdizon</p>
+      </footer>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

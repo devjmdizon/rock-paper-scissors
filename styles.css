@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.55s ease;
+}
+
+body {
+  background: linear-gradient(
+    245.59deg,
+    #36348a 0%,
+    #302e84 28.53%,
+    #16154e 75.52%
+  );
+  width: 100%;
+  height: 100vh;
+}
+
+.header-container {
+  background: transparent;
+  text-align: center;
+}
+
+.start-game {
+  margin-top: 30px;
+}
+
+.rps-header {
+  width: 250px;
+}
+
+.start-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.rps-logo {
+  width: 450px;
+}
+
+.btn {
+  background: transparent;
+  border: 2px solid #0e97ff;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 35px;
+}
+
+.start-btn:hover {
+  background-color: #0e97ff;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.score-container,
+.move-container,
+.weapons-container {
+  display: none;
+}
+
+.score-container {
+  justify-content: space-around;
+  margin-top: 3em;
+
+  text-align: center;
+  color: white;
+  font-family: "Comic Neue", cursive;
+  font-size: 15px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.score-container p {
+  font-size: 25px;
+}
+
+.move-container {
+  justify-content: space-around;
+  gap: 1em;
+}
+
+.move-container img {
+  width: 200px;
+  margin-top: 50px;
+}
+
+.weapons-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.rock-btn {
+  background-color: #ff9100;
+}
+
+.paper-btn {
+  background-color: #2ddf2d;
+}
+
+.scissors-btn {
+  background-color: #0d9eff;
+}
+
+.rock-btn:hover,
+.paper-btn:hover,
+.scissors-btn:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.footer-container {
+  position: static;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin: 10%;
+}
